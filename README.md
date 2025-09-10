@@ -1,7 +1,8 @@
 # go-annotate
 
 <p align="center">
-  <img src="logo.png" alt="go-annotate Logo" width="150">
+  <img src="logo-light.png#gh-light-mode-only" alt="go-annotate Logo" width="450">
+  <img src="logo-dark.png#gh-dark-mode-only" alt="go-annotate Logo" width="450">
 </p>
 
 <p align="center">
@@ -195,12 +196,6 @@ Recent optimizations deliver significant performance improvements:
 - **Logger**: High-performance event collection with multiple outputs
 - **Network Layer**: Robust socket handling with reconnection
 - **Memory Management**: Pool-based allocation for hot paths
-
-### Backward Compatibility
-
-All legacy environment variables are supported with deprecation warnings:
-- `GO_WRAP_LOG_FILE` → Use `GO_ANNOTATE_LOG_TARGET`
-- `GO_WRAP_LOG_SOCKETS` → Auto-detected from target format
 
 ### Use Cases
 
