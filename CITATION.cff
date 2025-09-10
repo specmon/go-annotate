@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Morio"
+    given-names: "Kevin"
+title: "go-annotate: High-Performance Go Code Instrumentation"
+version: 0.1.0
+date-released: 2025-09-10
+url: "https://github.com/specmon/go-annotate"
+repository-code: "https://github.com/specmon/go-annotate"
+abstract: "A high-performance Go source code instrumentation tool that automatically transforms Go programs by injecting logging calls around function entries and exits. It reports function parameters and return values, enabling external tools to monitor runtime behavior with minimal overhead."
+keywords:
+  - "go"
+  - "golang"
+  - "instrumentation"
+  - "runtime-monitoring"
+  - "ast"
+  - "logging"
+  - "performance"
+  - "verification"
+license: MIT

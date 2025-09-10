@@ -1,0 +1,18 @@
+# Global owners
+* @kevinmorio
+
+# Core instrumentation logic
+/annotate.go @kevinmorio
+/generate.go @kevinmorio
+
+# Logging subsystem
+/log/ @kevinmorio
+
+# CI/CD and automation
+/.github/ @kevinmorio
+/Makefile @kevinmorio
+
+# Documentation
+/README.md @kevinmorio
+/CONTRIBUTING.md @kevinmorio
+/SECURITY.md @kevinmorio
