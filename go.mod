@@ -3,7 +3,7 @@ module github.com/specmon/go-annotate
 go 1.22.0
 
 require (
-	github.com/fxamacker/cbor/v2 v2.7.0
+	github.com/fxamacker/cbor/v2 v2.9.0
 	golang.org/x/tools v0.17.0
 )
 
